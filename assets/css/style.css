@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #727272;
+    overflow-x: hidden;
+    
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+.navbar .blood{
+    color:#F90253;
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 800;
+    position: relative;
+    left: 3rem;
+}
+.nav-item .nav-link{
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #000;
+}
+.nav-item .home{
+    color:#d79100; 
+}
+.nav-item:hover .nav-link{
+    color:#d79100;
+}
+.navbar ul li{
+    padding-right: 4rem;
+}
+.donate {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    background:#ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    right: 5rem;
+}
+.donate:hover{
+    background: #fd7e14;
+    transition: 1s;
+}
+.carousel-inner img{
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background:#242f3ae6;
+    z-index: 1;
+    opacity: 0.6;
+}
+.content{
+    z-index: 1;
+    display: grid;
+    justify-content: start;
+}
+.title{
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+}
+.one{
+    position: relative;
+    right: 2rem;
+}
+.two{
+    position: relative;
+    right: 23rem;
+}
+.para{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+.para_one{
+    position: relative;
+    right: 1rem;
+}
+.para_two{
+    position: relative;
+    right: 14rem;
+}
+.main_button{
+    position: relative;
+    left: 4rem;
+}
+.button{
+    border: none;
+    outline: none;
+    background:#ee3d32;
+    color: #fff;
+    width: 22rem;
+    height: 7rem;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-left: 1rem;
+}
+.button:hover{
+    background: #000;
+    color: #fff;
+    transition: 2s;
+}
+.button_call{
+    background: #fff;
+    color: #000;
+}
+.sub_heading{
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #196cb3;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 2px;
+}
+.heading{
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-size: 46px;
+    line-height: 1.3;
+    letter-spacing: 0px;
+}
+.line{
+     width: 9rem;
+    height: 3px;
+    background: red;
+}
+.para_sec{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #555555;
+    font-size: 24px;
+    line-height: 1.3;
+    letter-spacing: 0px;
+    padding-top: 2rem;
+}
+.para_sec span{
+    color: #196cb3;
+}
+.shift_down{
+    position: relative;
+    top: 5rem;
+}
+.card{
+    height: 30rem;
+    border: none;
+    outline: none;
+}
+.card_heading{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+}
+.card_discription{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+}
+.card_button{
+    border: none;
+    outline: none;
+    background: red;
+    padding: 10px 20px;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.card_button:hover{
+    background:#d3e3df;
+    color: #000;
+    transition: 2s;
+}
+.card_item_one{
+    background: url('../images/get-1.jpg');
+}
+.card_item_two{
+    background: url('../images/get-2.jpg');
+}
+.card_item_three{
+    background: url('../images/get-3.jpg');
+}
+.card_common{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-body{
+    position: absolute;
+    top: 12rem;
+    left: 2rem;
+}
+.card-body button{
+    margin-top: 2rem;
+}
+.detail{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #555555;
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+}
+.card_item_four{
+    background: url('../images/donation.jpg');
+}
+.card_item_five{
+    background: url('../images/donation-1.jpg');
+}
+.card_item_six{
+    background: url('../images/donation-2.jpg');
+}
+.donor{
+    height: 50rem;
+}
+.donor_info{
+    height: 20rem;
+    width: 40rem;
+    background:#196cb3bf;
+    position: absolute;
+    right:68.2rem;
+}
+.donor_down{
+    position: absolute;
+    left: 3rem;
+    top: 3rem;
+}
+.item_seven{
+ background: url('../images/donar.jpg');
+}
+.item_common{
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card_form{
+    width: 350px;
+    height: 500px;
+    perspective: 1000px;
+    background:#000;
+    margin: 0 auto;
+}
+.form_box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 2s;
+}
+.form_front, .form_back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient( rgba(0,0,100,0.8),rgba(0,0,100,0.8) )
+    ,url();
+    padding: 55px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+}
+.form_back{
+    transform: rotateY(180deg);
+}
+.form_head{
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 26px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.card_form .input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 6px 0px;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: #fff;
+    text-transform:lowercase;
+}
+.card_form .input::placeholder{
+    color: #fff;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.card_form button[type="button"]{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 35px 0px 10px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.card_form button:hover[type="button"]{
+    color:black;
+    background: #fff;
+    transition: 2s;
+    font-weight: normal;
+}
+.card_form .submit-btn{
+    position: relative;
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 35px 0px 10px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.card_form .submit-btn::after{
+    content: '\27a4';
+    color: #333;
+    line-height: 32px;
+    font-size: 17px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
+.card_form span{
+    font-size: 13px;
+    margin-left: 10px;
+    color: #fff;
+}
+.form_front .btn{
+    margin-top: 70px;
+}
+.anker{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 8px;
+    text-transform: capitalize;
+}
+.anker:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.back_image{
+    height: 500px;
+    background-image: url(../images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content_back{
+    position: relative;
+    top: 15rem;
+    left: 10rem;
+}
+
+.footer-section{
+    padding: 18px 0 16px;
+    overflow: hidden;
+    background: #252525;
+}
+.footer-menu{
+    list-style: none;
+    float: right;
+}
+.footer-menu li{
+    display: inline;
+}
+.footer-menu li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #aeaeae;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+.footer-menu li:hover a{
+    text-decoration: none;
+}
+.copyright{
+    float: left;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #aeaeae;
+    font-size: 14px;
+}
+.card_overlay{
+    z-index: 1;
+}
